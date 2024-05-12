@@ -18,6 +18,21 @@
             </ul>
         </nav>
     </header>
+    <div>
+    <h2>Formulario de Contacto</h2>
+    <form action="enviar_formulario.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+    </div>
     <section>
         <h2>Contáctame</h2>
         <p>Puedes encontrarme en las siguientes redes sociales o enviarme un correo electrónico.</p>
