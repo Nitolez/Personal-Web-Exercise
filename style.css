@@ -8,7 +8,7 @@ body {
     background-image: url('https://marketplace.canva.com/EAFI9Rl4NDs/2/0/1600w/canva-fondo-para-zoom-minimalista-crema-beige-FsZHmBkkfgE.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 header {
