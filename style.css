@@ -79,10 +79,22 @@ input:focus {
     .section {
         width: 30%;
     }
+    .fotito{
+        width: 300px;
+
+    }
+    img {
+        width: 100%;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
     .section {
         width: 25%;
     }
+    .fotito{
+        width: 500px;
+    }
+    
 }
